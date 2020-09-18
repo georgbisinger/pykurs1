@@ -1,0 +1,18 @@
+-- SQLite
+Select *  From Titel Limit 3
+
+Select * From Titel Where Jahr = 1985
+
+Select * From Titel Where Jahr >= 1984 and Jahr <= 1986
+
+Select * From Titel Where Jahr != 1985
+
+Select * From Titel Where Titel like "S%"
+
+Update Titel Set Kategorie = "Rock" Where Id=9
+
+Insert Into Titel (Titel,Interpret,Jahr,Kategorie,Bewertung,Laenge) Values("Bicycle Race", "Queen", 1978, "Rock", 5, 3.01)
+
+Insert Into Titel (Titel,Interpret,Jahr,Kategorie,Bewertung,Laenge) Values ("When Will I be famous", "Bros", 1987,"Pop",0,4.0)
+
+Delete From Titel Where Bewertung < 2
