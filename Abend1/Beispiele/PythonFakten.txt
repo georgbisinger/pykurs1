@@ -1,4 +1,4 @@
-Der Erfinder von Python ist Guido van Rossum
+﻿Der Erfinder von Python ist Guido van Rossum
 Python war 2018 die beliebteste Programmiersprache auf Stackoverflow.com
 Der Namensgeber ist keine Schlange, sondern eine Gruppe von Comedians aus England
 Python entstand Anfang der 90er Jahre in Amsterdamm

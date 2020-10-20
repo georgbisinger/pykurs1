@@ -2,10 +2,10 @@
 
 def Kennwort():
     import random
-    Kennwort = ""
+    wort = ""
     for i in range(8):
-        Kennwort += chr(random.randint(33,97))
-    return Kennwort
+        wort += chr(random.randint(33,97))
+    return wort
 
 
 print(Kennwort())
